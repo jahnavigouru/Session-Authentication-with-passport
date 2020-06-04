@@ -1,0 +1,14 @@
+<!-- Default form login -->
+<form class="text-center border border-light p-5" action="/users/verify" method="POST">
+
+    <p class="h0 mb-0">Verify Email</p>
+    <%- include('./partials/messages.ejs'); %>
+
+    <!-- Password -->
+    <input type="text" id="secertToken" class="form-control mb-4" name="secretToken" placeholder="secertToken">
+
+    <!-- Sign in button -->
+    <button class="btn btn-info btn-block my-4" type="submit">Verify</button>
+
+</form>
+<!-- Default form login -->
